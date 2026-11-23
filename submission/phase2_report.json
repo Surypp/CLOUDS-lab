@@ -1,0 +1,30 @@
+{
+  "phase": "2",
+  "environment": {
+    "colab": true
+  },
+  "attention": {
+    "naive_ms": 464.546,
+    "vectorized_ms": 3.128,
+    "speedup": 148.51
+  },
+  "threads": {
+    "1": 2406.632,
+    "2": 2865.359,
+    "4": 2894.274,
+    "8": 2356.522
+  },
+  "devices": {
+    "cpu_ms": 461183.3,
+    "gpu_ms": 16090.8
+  },
+  "training": {
+    "steps": 2000,
+    "final_loss": 1.3992,
+    "param_count": 4935680
+  },
+  "sample": "\n\nLANGES:\nBrohther provest and ill o' the fallse fellow:\nTo thine I must be tale wounder's'd.\n\nMARIONA:\nMy wear why please. MapiPsent meether,\nWhen I evented in the the many of good, whe's no prove,\nBu",
+  "model": {
+    "gcs_url": "https://storage.googleapis.com/project-a989743c-0573-4e9d-bae-eurecomgpt/model.safetensors"
+  }
+}
